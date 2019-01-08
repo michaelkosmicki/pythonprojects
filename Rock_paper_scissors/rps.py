@@ -21,7 +21,7 @@ else:
     exit()
 if computer_pick == 'scissors' and user_pick == 'rock':
     print(f'Nice work! {user_pick} beats {computer_pick} ')
-if computer_pick == 'rock' and user_pick == 'scissors':
+elif computer_pick == 'rock' and user_pick == 'scissors':
     print(f'Sorry {computer_pick} beats {user_pick}')
 elif computer_pick == 'paper' and user_pick == 'rock':
     print(f'Sorry {computer_pick} beats {user_pick}')
